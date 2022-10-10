@@ -1,0 +1,148 @@
+:root {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #e5e5e5;
+}
+.pricing-card {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border: 2px solid #afb1b7;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.pricing-card-upside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+}
+.pricing-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.pricing-body h2 {
+  font-size: 50px;
+}
+.pricing-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.button-1 {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 10px 0;
+  background: #0e121d;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button-2 {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 10px 0;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #0e121d;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pricing-card-downside {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 1px solid #afb1b7;
+  padding: 30px;
+}
+.pricing-header h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.pricing-header p {
+  margin-bottom: 10px;
+  color: #afb1b7;
+}
+.advantage-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.advantage-list-items {
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+  background: #a3ff13;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* styles for second card */
+.bg-lime {
+  background-color: #a3ff13;
+}
+.color-lime {
+  color: #a3ff13;
+}
+.bg-dark {
+  background-color: #0e121d;
+}
+.color-dark {
+  color: #0e121d;
+}
+.color-light {
+  color: #fefeff;
+}
+.badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tag {
+  border-radius: 20px;
+  padding: 7px 14px;
+}
